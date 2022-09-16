@@ -23,11 +23,11 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: service2
+  name: service-v1
 spec:
   selector:
     app: myapp-v1
-
+  loadBalancerIP: 35.215.0.250
   type: LoadBalancer
   ports:
   - port: 80
