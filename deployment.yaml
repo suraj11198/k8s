@@ -23,7 +23,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: service
+  name: servicenew
 spec:
   selector:
     app: myapp-v1
