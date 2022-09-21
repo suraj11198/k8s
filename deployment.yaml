@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myapp-v1
-        image: arjunmishra/test-repo:tagversion
+        image: arjunmishra/demo-test:tagversion
         ports:
         - containerPort: 8080
 ---
