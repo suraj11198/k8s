@@ -23,7 +23,7 @@ pipeline {
 		    steps {
 			    sh 'whoami'
 			    script {
-				    myimage = docker.build("arjunmishra/demo-test:>>>>${env.BUILD_ID}")
+				    myimage = docker.build("arjunmishra/demo-test:${env.BUILD_ID}")
 			    }
 		    }
 	    }
