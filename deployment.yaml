@@ -27,7 +27,6 @@ metadata:
 spec:
   selector:
     app: myapp-v1
-  
   type: LoadBalancer
   ports:
   - port: 80
