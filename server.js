@@ -1,4 +1,3 @@
-qqq
 
 var http = require('http');
 
